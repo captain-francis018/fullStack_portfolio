@@ -1,0 +1,9 @@
+# Fichier .gitignore pour ignorer les fichiers et dossiers suivants
+images/
+accstyle.css
+accueil.html
+contact.html
+four-projets.html
+list-projets.html
+style.css
+styles.css
