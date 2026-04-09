@@ -1,0 +1,140 @@
+/* Variables de couleurs */
+:root {
+    --bg-color: #060a13;
+    --card-bg: #1e293b;
+    --text-color: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary-color: #6366f1;
+    --secondary-color:#FFC107;
+    --primary-hover: #4f46e5;
+    --danger-color: #ef4444;
+    --border-color: #334155;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/360_F_294370899_CjLy3nMMSkm9FBsIdPvqlQgjiGrTT9kW-removebg-preview.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+p {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 16px 32px;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    
+
+}
+
+h3 {
+    margin-top: 40px;
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+.contact-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: none; 
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 1rem;
+    background: transparent;  
+    color: white;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #ccc;;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    padding: 18px 25px;
+    font-size: 1.2rem;
+    width: fit-content;
+    align-self: center;
+}
+
+.copyright {
+    text-align: left;
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+
